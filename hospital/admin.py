@@ -6,7 +6,7 @@ admin.site.register(Patient)
 
 @admin.register(DoctorProxy)
 class DoctorProxy(admin.ModelAdmin):
-    list_display = ["name", "specialization"]
+    list_display = ["Name", "Specialization"]
 
 @admin.register(PatientProxy)
 class PatientProxy(admin.ModelAdmin):
